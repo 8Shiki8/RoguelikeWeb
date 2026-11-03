@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Roguelike Prototype</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="start" role="dialog" aria-modal="true" aria-labelledby="start-title">
+      <div class="start__sign">
+        <h1 id="start-title">RogWeb</h1>
+        <p class="start__tagline">Turn-based dungeon crawl. Death is final.</p>
+      </div>
+      <button id="start-button" type="button" autofocus>Start</button>
+    </section>
+
+    <section id="levelup" data-role="levelup" role="dialog" aria-modal="true" aria-labelledby="levelup-title" hidden>
+      <div class="levelup__panel">
+        <h2 id="levelup-title">Level up!</h2>
+        <p class="levelup__pool">Points to spend: <span data-role="points">0</span></p>
+        <div class="levelup__grid" data-role="levelup-buttons"></div>
+        <p class="levelup__hint" data-role="levelup-keys"></p>
+        <button type="button" class="levelup__later" data-role="levelup-later">Later</button>
+      </div>
+    </section>
+
+    <main id="app">
+      <section class="stage">
+        <canvas id="game" width="320" height="320" aria-label="Dungeon view"></canvas>
+        <div id="log" aria-live="polite" aria-label="Message log"></div>
+      </section>
+
+      <aside id="panel" aria-label="Character and run status"></aside>
+
+      <p id="fatal" role="alert"></p>
+    </main>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>

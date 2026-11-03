@@ -1,0 +1,17 @@
+{
+  "archetypes": {
+    "boss": {
+      "name": "Dungeon Lord",
+      "glyph": "B",
+      "maxHp": 40,
+      "maxMana": 0,
+      "attack": 8,
+      "defense": 3,
+      "xp": 100,
+      "critChance": 10,
+      "critDamage": 50,
+      "dodge": 0,
+      "intelligence": 0
+    }
+  }
+}

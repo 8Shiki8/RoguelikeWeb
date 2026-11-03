@@ -1,0 +1,18 @@
+{
+  "dataVersion": 1,
+  "map": {
+    "width": 40,
+    "height": 22,
+    "minRooms": 12,
+    "maxRooms": 16,
+    "minRoomSize": 4,
+    "maxRoomSize": 6,
+    "roomPlacementAttempts": 1800
+  },
+  "view": {
+    "tileSize": 60,
+    "cols": 14,
+    "rows": 8
+  },
+  "seed": null
+}

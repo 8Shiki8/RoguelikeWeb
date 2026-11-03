@@ -1,0 +1,88 @@
+{
+  "definitions": {
+    "rusty-sword": {
+      "name": "Rusty Sword",
+      "glyph": ")",
+      "slot": "weapon",
+      "attack": 2,
+      "defense": 0,
+      "maxHp": 0,
+      "maxMana": 0,
+      "critChance": 0,
+      "critDamage": 0,
+      "luck": 0,
+      "dodge": 0,
+      "intelligence": 0
+    },
+    "dagger": {
+      "name": "Dagger",
+      "glyph": "/",
+      "slot": "weapon",
+      "attack": 1,
+      "defense": 0,
+      "maxHp": 0,
+      "maxMana": 0,
+      "critChance": 5,
+      "critDamage": 0,
+      "luck": 0,
+      "dodge": 0,
+      "intelligence": 0
+    },
+    "leather-armor": {
+      "name": "Leather Armor",
+      "glyph": "[",
+      "slot": "chest",
+      "attack": 0,
+      "defense": 2,
+      "maxHp": 0,
+      "maxMana": 0,
+      "critChance": 0,
+      "critDamage": 0,
+      "luck": 0,
+      "dodge": 0,
+      "intelligence": 0
+    },
+    "sturdy-belt": {
+      "name": "Sturdy Belt",
+      "glyph": "=",
+      "slot": "belt",
+      "attack": 0,
+      "defense": 0,
+      "maxHp": 3,
+      "maxMana": 0,
+      "critChance": 0,
+      "critDamage": 0,
+      "luck": 0,
+      "dodge": 0,
+      "intelligence": 0
+    },
+    "worn-boots": {
+      "name": "Worn Boots",
+      "glyph": "~",
+      "slot": "boots",
+      "attack": 0,
+      "defense": 1,
+      "maxHp": 0,
+      "maxMana": 0,
+      "critChance": 0,
+      "critDamage": 0,
+      "luck": 5,
+      "dodge": 5,
+      "intelligence": 0
+    },
+    "leather-gloves": {
+      "name": "Leather Gloves",
+      "glyph": "}",
+      "slot": "gloves",
+      "attack": 1,
+      "defense": 0,
+      "maxHp": 0,
+      "maxMana": 0,
+      "critChance": 0,
+      "critDamage": 0,
+      "luck": 0,
+      "dodge": 0,
+      "intelligence": 0
+    }
+  }
+}

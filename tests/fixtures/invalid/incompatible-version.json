@@ -1,0 +1,33 @@
+{
+  "dataVersion": 2,
+  "map": {
+    "width": 40,
+    "height": 22,
+    "minRooms": 8,
+    "maxRooms": 16,
+    "minRoomSize": 5,
+    "maxRoomSize": 9,
+    "roomPlacementAttempts": 60
+  },
+  "view": { "tileSize": 26 },
+  "seed": null,
+  "player": {
+    "id": "player",
+    "kind": "player",
+    "name": "Delver",
+    "glyph": "@",
+    "maxHp": 20,
+    "attack": 4,
+    "defense": 1
+  },
+  "enemies": {
+    "archetypes": {
+      "rat": { "name": "Giant Rat", "glyph": "r", "maxHp": 6, "attack": 3, "defense": 0 },
+      "goblin": { "name": "Goblin", "glyph": "g", "maxHp": 10, "attack": 4, "defense": 1 }
+    },
+    "spawn": [
+      { "archetype": "rat", "count": 2 },
+      { "archetype": "goblin", "count": 1 }
+    ]
+  }
+}

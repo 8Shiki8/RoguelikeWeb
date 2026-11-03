@@ -1,0 +1,8 @@
+[
+  { "enemy": "rat", "item": "worn-boots", "chance": 10 },
+  { "enemy": "rat", "item": "dagger", "chance": 5 },
+  { "enemy": "goblin", "item": "rusty-sword", "chance": 20 },
+  { "enemy": "goblin", "item": "leather-gloves", "chance": 15 },
+  { "enemy": "*", "item": "sturdy-belt", "chance": 8 },
+  { "enemy": "boss", "item": "leather-armor", "chance": 100 }
+]

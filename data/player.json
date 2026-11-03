@@ -1,0 +1,16 @@
+{
+  "id": "player",
+  "kind": "player",
+  "name": "Player",
+  "glyph": "@",
+  "maxHp": 80,
+  "maxMana": 30,
+  "attack": 4,
+  "defense": 1,
+  "critChance": 5,
+  "critDamage": 50,
+  "luck": 0,
+  "dodge": 0,
+  "intelligence": 0,
+  "spritePath": "assets/32rogues/warrior.png"
+}

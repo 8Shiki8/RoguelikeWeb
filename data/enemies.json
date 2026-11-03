@@ -1,0 +1,36 @@
+{
+  "archetypes": {
+    "rat": {
+      "name": "Giant Rat",
+      "glyph": "r",
+      "maxHp": 6,
+      "maxMana": 0,
+      "attack": 3,
+      "defense": 0,
+      "xp": 15,
+      "critChance": 0,
+      "critDamage": 50,
+      "dodge": 0,
+      "intelligence": 0,
+      "spritePath": "assets/32rogues/dwarf.png"
+    },
+    "goblin": {
+      "name": "Goblin",
+      "glyph": "g",
+      "maxHp": 10,
+      "maxMana": 0,
+      "attack": 4,
+      "defense": 1,
+      "xp": 25,
+      "critChance": 5,
+      "critDamage": 50,
+      "dodge": 0,
+      "intelligence": 0,
+      "spritePath": "assets/32rogues/assasin.png"
+    }
+  },
+  "spawn": [
+    { "archetype": "rat", "count": 2 },
+    { "archetype": "goblin", "count": 1 }
+  ]
+}
